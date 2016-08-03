@@ -152,9 +152,7 @@ def initiatePokeBot(session):
         cleanInventory(session)
         try:
             for fort in forts:
-                getInventory(session)
                 walkAndSpin(session, fort)
-                logging.info(session.checkInventory().stats.km_walked)
                 eggInfo = setEgg(session)
                 logging.info(eggInfo)
 
