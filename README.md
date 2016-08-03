@@ -26,27 +26,29 @@ The bot is capable of:
 
     *  Incubate Eggs Automatically
 
-    [x]  Auto assign Eggs into empty Incubators
+    *  Auto assign Eggs into empty Incubators
 
 
 ## Installation
 
-### Step One: Install Prerequisites
+### Step One :  Install Prerequisites
 
 1. [Install Python 2.7+](https://wiki.python.org/moin/BeginnersGuide/Download)
-1. [Install PIP](https://pip.pypa.io/en/stable/installing/)
+2. [Install PIP](https://pip.pypa.io/en/stable/installing/)
 
 (Latest versions of python comes along with pip)
 
-### Step Two: Install Pokemon_Go_API
+### Step Two :  Install Pokemon_Go_API
 
 1. Download or clone the repository.
-1. Using a terminal, navigate into the cloned repository.
-1. Install all requirements for the project using 
+2. Using a terminal, navigate into the cloned repository.
+3. Install all requirements for the project using 
 
-    `pip install -r requirements.txt`
+```bash
+    pip install -r requirements.txt
+```
 
-### Step Three: Run Pokemon_Go_API
+### Step Three :  Run Pokemon_Go_API
 
 To run the project using Google login:
 
